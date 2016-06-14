@@ -235,7 +235,7 @@ body {
   float: left;
   margin-left: 10px;
 }
-.stage .stage-one .one-middle .cloud1 {
+.stage-one.active .one-middle .cloud1 {
   width: 100%;
   height: 100%;
   background: url(../images/cloud1.png) repeat;
@@ -254,7 +254,7 @@ body {
   left: 14%;
   top: 20%;
 }
-.stage .stage-one .one-middle .o-plane {
+.stage-one.active .one-middle .o-plane {
   width: 119px;
   height: 78px;
   background: url(../images/feiji.png);
@@ -312,7 +312,7 @@ body {
   top: -191px;
   background: url(../images/one-btm-4.png);
 }
-.stage .stage-one .one-btm .center .down {
+.stage-one.animation .one-btm .center .down {
   display: block;
   width: 30px;
   height: 26px;
@@ -378,7 +378,7 @@ body {
 }
 
 /*第二屏*/
-.stage-two .tree{
+.stage-two.active .tree{
     background: url(../images/bg2-1.png);
     position: absolute;
     width: 444px;
@@ -397,7 +397,7 @@ body {
       opacity: 1;
     }
 }
-.stage-two .txt{
+.stage-two.active .txt{
     width: 500px;
     height: 126px;
     position: absolute;
@@ -414,7 +414,7 @@ body {
       left:202px;
     }
 }
-.stage-two .txt .lingxian{
+.stage-two.active .txt .lingxian{
     width: 66px;
     height: 126px;
     float: left;
@@ -489,7 +489,7 @@ body {
 }
 
 /*第三屏*/
-.stage-three .tree{
+.stage-three.active .tree{
     background: url(../images/bg2-1.png);
     position: absolute;
     width: 444px;
@@ -508,7 +508,7 @@ body {
       opacity: 1;
     }
 }
-.stage-three .txt{
+.stage-three.active .txt{
     width: 500px;
     height: 126px;
     position: absolute;
@@ -525,7 +525,7 @@ body {
       left:202px;
     }
 }
-.stage-three .txt .lingxian{
+.stage-three.active .txt .lingxian{
     width: 66px;
     height: 126px;
     float: left;
@@ -597,7 +597,7 @@ body {
       opacity: .6;
     }
 }
-.stage-three .tree2{
+.stage-three.active .tree2{
     background: url(../images/bg3-1.png);
     position: absolute;
     width: 444px;
@@ -608,7 +608,7 @@ body {
 
 
 /*第四屏*/
-.stage-four .tab{
+.stage-four.active .tab{
     width: 603px;
     height: 361px;
     background: url(../images/bg4-1.png);
@@ -641,7 +641,7 @@ body {
     left: 262px;
     top:192px;
 }
-.stage-four .wenz .wz-l{
+.stage-four.active .wenz .wz-l{
     width: 66px;
     height: 126px;
     float: left;
